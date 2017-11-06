@@ -1,3 +1,4 @@
+/*Cuerpo HTML*/
 body {
   font-family: 'Arvo', serif;
   background-image: url(../imagen/twitter.jpg);
@@ -6,6 +7,7 @@ body {
   margin: 0 auto;
   overflow-x: hidden;
 }
+/*Barra inicial de Twitter*/
 .barra {
   background-color: #01A9DB;
   color: white;
@@ -22,8 +24,9 @@ body {
   font-size: 35px;
   margin-left: 10px;
 }
+/*Section donde está contenida la imagen de fondo, más los dos divs (uno de texto plano, y otro un Textarea con un botón)*/
 .imagen {
-  padding-bottom: 200px;
+  padding-bottom: 20px;
 }
 .cuadro1, .input {
   display: table;
@@ -74,7 +77,7 @@ body {
   border: none;
   outline: none;
 }
-.botoncillo {
+.click {
   background-color: #01A9DB;
   color: white;
   font-size: 20px;
@@ -84,4 +87,14 @@ body {
   padding: 20px;
   margin-left: 10px;
   margin-top: 10px;
+  cursor: pointer;
+}
+/*El div que aparece debajo de la section que es creada por JS*/
+.cuadro3 {
+  background-color: white;
+  width: 1100px;
+  opacity: 0.9;
+  padding: 20px;
+  border-radius: 5px;
+  margin-left: 68px;
 }
