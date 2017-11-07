@@ -89,6 +89,9 @@ body {
   margin-top: 10px;
   cursor: pointer;
 }
+#contador {
+  margin-left: 10px;
+}
 /*El div que aparece debajo de la section que es creada por JS*/
 .cuadro3 {
   background-color: white;
@@ -97,4 +100,5 @@ body {
   padding: 20px;
   border-radius: 5px;
   margin-left: 68px;
+  margin-top: 10px;
 }

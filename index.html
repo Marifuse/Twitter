@@ -20,9 +20,10 @@
         <a class="link" id="link1" href="#">Código</a>
       </div>
       <form class="input" id="cuadro2">
-        <textarea class="escritura" id="Escritura" name="estructura" rows="8" cols="80" placeholder="¿Qué estás pensando?"></textarea>
+        <textarea class="escritura" id="Escritura" rows="8" cols="80" placeholder="¿Qué estás pensando?" onKeyDown="conteo()" onKeyUp="conteo()"></textarea>
         <hr class="linea">
-        <button class="click" type="button" name="Tweet">Tweet</button>
+        <button id="click1" class="click" type="button" name="Tweet">Tweet</button>
+        <input id="contador" disabled size = "3" value="140">
       </form>
     </section>
     <script type="text/javascript" src="assets/js/app.js">
