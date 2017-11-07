@@ -2,7 +2,7 @@
 function conteo () {
   var max = "140";
 	var cadena = document.getElementById("Escritura").value;
-	var longitud = cadena.length;
+  	var longitud = cadena.length;
 
 		 if(longitud <= max) {
 		          document.getElementById("contador").value = max-longitud;
@@ -40,6 +40,7 @@ window.onload = function() {
         fecha.textContent = new Date();
         tweet.textContent = texto.value;
         document.body.appendChild(cuadroTweet);
+        document.getElementById('Escritura').value="";
         }
     }
 }
